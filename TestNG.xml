@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Automation University" verbose="1" >
+    <test name="Configuration_Annotations_Check" >
+        <classes>
+            <class name="Configuration_Annotations" />
+        </classes>
+    </test>
+
+    <test name="DependsOnMethodsCheck">
+        <classes>
+            <class name="DependsOnMethods"/>
+        </classes>
+    </test>
+</suite>
