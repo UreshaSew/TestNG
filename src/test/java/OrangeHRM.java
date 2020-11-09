@@ -9,7 +9,7 @@ public class OrangeHRM {
 
    @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "E:\\QA_Projects_Interviews\\Test_Automation_University\\TestNG\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "E:\\QA\\TestNG\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
 
