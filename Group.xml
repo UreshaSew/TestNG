@@ -1,0 +1,21 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Suite">
+    <test name="All Groups Test">
+    <groups>
+        <run>
+<!--            <exclude name = "regression"/>-->
+            <include name = "regression"/>
+            <exclude name="defect.*"/>
+<!--            <include name = "smoke"/>-->
+<!--            <include name = "system"/>-->
+        </run>
+    </groups>
+
+    <classes>
+        <class name="GroupTest">
+
+        </class>
+    </classes>
+</test>
+</suite>
