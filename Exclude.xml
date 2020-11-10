@@ -1,0 +1,13 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation" >
+    <test thread-count="5" name="Depends On Methods Attribute Test">
+    <classes>
+        <class name="DependsOnMethods">
+            <methods>
+                <exclude name="testDelete" />
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
