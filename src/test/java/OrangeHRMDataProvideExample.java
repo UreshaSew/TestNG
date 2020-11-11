@@ -9,7 +9,7 @@ public class OrangeHRMDataProvideExample {
 
     @Test(dataProviderClass = SignInDP.class, dataProvider = "signin-provider")
     public void SignIn(String username, String password, boolean success) {
-        System.setProperty("webdriver.chrome.driver", "E:\\QA_Projects_Interviews\\Test_Automation_University\\TestNG\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "E:\\QA\\TestNG\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://opensource-demo.orangehrmlive.com/");
